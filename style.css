@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 3px -1px rgba(166,166,166,0.78);
+    -webkit-box-shadow: 0px 3px 3px -1px rgba(166,166,166,0.78);
+    -moz-box-shadow: 0px 3px 3px -1px rgba(166,166,166,0.78);
+}
+
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.navbar-left div:hover,
+.find-a-store :hover {
+    color: #00754a
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left>*,
+.navbar-right>* {
+    margin: 10px;
+}
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sign-in,
+.join-now {
+    font-weight: 500;
+    border: black 1px solid;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.sign-in:hover {
+    background-color: rgba(0, 0, 0, 0.06)
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, 0.07)
+}
+
+.container{
+    margin-top: 34px;
+}
+.procuct-container{
+    margin:40px 230px 40px 230px
+}
+.product img {
+    max-width: 100%;
+    height:100%;
+}   
+.product{
+    display: flex;
+}
+.product-right,
+.product-left
+{
+    max-width:50%;
+    display: flex;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+    flex-direction: column;
+}
+.product-title-up{
+    margin-top:120px;
+    height: 31px;
+    text-align: center;
+    color:#1e3932;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+.product-title-down-1
+{
+    color:#1e3932;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 16px;
+}
+.product-title-down-2{
+    color:#1e3932;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom:42px;
+}
+.product-button{
+    border:1px solid #1e3932;
+    max-width: max-content;
+    border-radius:40px; 
+    text-align: center;
+    margin-top:40px;
+    padding:5px 20px 5px 20px;
+}
+.product-button-white{
+    color:#fff;
+    border:1px solid #fff;
+    max-width: max-content;
+    border-radius:50px; 
+    text-align: center;
+    margin:auto;
+    padding:7px 16px;
+}
+.product-title-big-white-up{
+    font-size: 50px;
+    color:white;
+    width:400px;
+    text-align: center;
+    margin:160px 0px 32px 0px;
+
+}
+.product-title-down-big-white{
+    font-size: 24px;
+    color:white;
+    width: 500px;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+}
+
+
+
+
+
+   
+
+
+
+       
+
+
+
+        
